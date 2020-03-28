@@ -1,6 +1,6 @@
 let mix = require('laravel-mix');
 
-require('laravel-mix-purgecss')
+require('laravel-mix-purgecss');
 
 /*
  |--------------------------------------------------------------------------
@@ -19,8 +19,8 @@ const sassOptions = {
 
 mix
     .copyDirectory('node_modules/ionicons/fonts', 'public/fonts')
-    .sass('resources/assets/sass/dashboard.scss', 'public/dist/css/dashboard', sassOptions)
-    .sass('resources/assets/sass/app.scss', 'public/dist/css', sassOptions)
+    .sass('resources/assets/sass/dashboard.scss', 'public/dist/css/dashboard', { sassOptions })
+    .sass('resources/assets/sass/app.scss', 'public/dist/css', { sassOptions })
     .purgeCss()
     .options({
         processCssUrls: false
