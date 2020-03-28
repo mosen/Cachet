@@ -43,6 +43,7 @@
         "graham-campbell/exceptions": "^14.0",
         "graham-campbell/markdown": "^12.0",
         "guzzlehttp/guzzle": "^6.5",
+        "jenssegers/date": "4.0.0-beta",
         "laravel/framework": "^7.3.0",
         "laravel/tinker": "^2.0",
         "mccool/laravel-auto-presenter": "^7.4",
