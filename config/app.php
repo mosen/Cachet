@@ -180,7 +180,7 @@ return [
         Fruitcake\Cors\CorsServiceProvider::class,
         env('APP_DEBUG') ? Barryvdh\Debugbar\ServiceProvider::class : null,
         GrahamCampbell\Binput\BinputServiceProvider::class,
-        GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
+//        GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
         GrahamCampbell\Markdown\MarkdownServiceProvider::class,
         GrahamCampbell\Security\SecurityServiceProvider::class,
 //        Jenssegers\Date\DateServiceProvider::class,
@@ -249,7 +249,7 @@ return [
         'View'         => Illuminate\Support\Facades\View::class,
         'Binput'       => GrahamCampbell\Binput\Facades\Binput::class,
         'Str'          => Illuminate\Support\Str::class,
-
+        'Arr'          => Illuminate\Support\Arr::class,
     ],
 
 ];
