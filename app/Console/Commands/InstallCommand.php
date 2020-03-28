@@ -323,9 +323,6 @@ class InstallCommand extends Command
     protected function configureCachet(array $config = [])
     {
         $config = [];
-        if ($this->confirm('Do you wish to use Cachet Beacon?')) {
-            $config['CACHET_BEACON'] = 'true';
-        }
 
         if ($this->confirm('Do you wish to use Emoji? This requires a GitHub oAuth Token!')) {
             $config['GITHUB_TOKEN'] = $this->ask('Please enter your GitHub oAuth Token');
