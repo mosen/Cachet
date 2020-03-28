@@ -38,26 +38,11 @@ class IntegrationServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->registerBeacon();
         $this->registerCredits();
         $this->registerFeed();
         $this->registerSystem();
 
         $this->registerReleases();
-    }
-
-    /**
-     * Register the beacon class.
-     *
-     * @return void
-     */
-    protected function registerBeacon()
-    {
-        $this->app->singleton(BeaconContract::class, function ($app) {
-            $config = $app['config'];
-
-            return new Beacon($config);
-        });
     }
 
     /**

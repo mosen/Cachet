@@ -44,16 +44,4 @@ class Kernel extends ConsoleKernel
         InstallCommand::class,
         VersionCommand::class,
     ];
-
-    /**
-     * Define the application's command schedule.
-     *
-     * @param \Illuminate\Console\Scheduling\Schedule $schedule
-     *
-     * @return void
-     */
-    protected function schedule(Schedule $schedule)
-    {
-        $schedule->command('cachet:beacon')->twiceDaily(0, 12);
-    }
 }
