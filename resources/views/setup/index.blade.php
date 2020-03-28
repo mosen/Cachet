@@ -170,12 +170,6 @@
                             <span class="text-danger">{{ $errors->first('settings.app_locale') }}</span>
                             @endif
                         </div>
-                        <div class="form-group">
-                            <label>
-                                <input type="checkbox" name="settings[show_support]" value="1" checked>
-                                {{ trans("setup.show_support") }}
-                            </label>
-                        </div>
                         <hr>
                         <div class="form-group text-center">
                             <span class="wizard-next btn btn-info" data-current-block="2" data-next-block="1">

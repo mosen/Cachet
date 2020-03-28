@@ -113,17 +113,6 @@
                             <div class="col-xs-12">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="hidden" value="0" name="show_support">
-                                        <input type="checkbox" value="1" name="show_support" {{ $showSupport ? 'checked' : null }}>
-                                        {{ trans('setup.show_support') }}
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="checkbox">
-                                    <label>
                                         <input type="hidden" value="0" name="enable_external_dependencies">
                                         <input type="checkbox" value="1" name="enable_external_dependencies" {{ $enableExternalDependencies ? 'checked' : null }}>
                                         {{ trans('forms.settings.app-setup.enable_external_dependencies') }}

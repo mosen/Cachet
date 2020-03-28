@@ -384,9 +384,6 @@ EINCIDENT;
                 'key'   => 'app_domain',
                 'value' => 'https://demo.cachethq.io',
             ], [
-                'key'   => 'show_support',
-                'value' => '1',
-            ], [
                 'key'   => 'app_locale',
                 'value' => 'en',
             ], [

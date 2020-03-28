@@ -117,7 +117,6 @@ class SetupController extends Controller
             'settings.app_domain'   => 'required',
             'settings.app_timezone' => 'required',
             'settings.app_locale'   => 'required',
-            'settings.show_support' => 'bool',
         ];
 
         $this->rulesStep3 = [

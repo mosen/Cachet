@@ -77,7 +77,6 @@ class AppComposer
         $view->withAppHeader($this->config->get('setting.header'));
         $view->withAppFooter($this->config->get('setting.footer'));
         $view->withAppName($this->config->get('setting.app_name'));
-        $view->withShowSupport($this->config->get('setting.show_support'));
         $view->withAutomaticLocalization($this->config->get('setting.automatic_localization'));
         $view->withEnableExternalDependencies($this->config->get('setting.enable_external_dependencies'));
         $view->withShowTimezone($this->config->get('setting.show_timezone'));
