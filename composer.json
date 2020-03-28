@@ -39,6 +39,7 @@
         "chillerlan/php-qrcode": "^3.2.1",
         "doctrine/dbal": "2.9.*",
         "fideloper/proxy": "^4.3",
+        "fruitcake/laravel-cors": "^1.0",
         "graham-campbell/binput": "^7.1.0",
         "graham-campbell/exceptions": "^14.0",
         "graham-campbell/markdown": "^12.0",

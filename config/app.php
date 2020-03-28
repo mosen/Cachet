@@ -174,10 +174,10 @@ return [
          * Packages Service Providers...
          */
         env('APP_DEBUG') ? Bugsnag\BugsnagLaravel\BugsnagServiceProvider::class : null,
-//        CachetHQ\Badger\BadgerServiceProvider::class,
-//        CachetHQ\Emoji\EmojiServiceProvider::class,
-//        CachetHQ\Twitter\TwitterServiceProvider::class,
-//        Barryvdh\Cors\ServiceProvider::class,
+//        CachetHQ\Badger\BadgerServiceProvider::class, // Only Supports up to Laravel 6.x
+//        CachetHQ\Emoji\EmojiServiceProvider::class, // Only Supports up to Laravel 6.x
+//        CachetHQ\Twitter\TwitterServiceProvider::class,  // Only Supports up to Laravel 6.x
+        Fruitcake\Cors\CorsServiceProvider::class,
         env('APP_DEBUG') ? Barryvdh\Debugbar\ServiceProvider::class : null,
         GrahamCampbell\Binput\BinputServiceProvider::class,
         GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
