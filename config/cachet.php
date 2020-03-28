@@ -44,6 +44,6 @@ return [
     |
     */
 
-    'beacon' => env('CACHET_BEACON', true),
+    'beacon' => env('CACHET_BEACON', false),
 
 ];

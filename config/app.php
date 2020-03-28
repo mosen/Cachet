@@ -175,8 +175,8 @@ return [
          */
         env('APP_DEBUG') ? Bugsnag\BugsnagLaravel\BugsnagServiceProvider::class : null,
         CachetHQ\Badger\BadgerServiceProvider::class,
-        // CachetHQ\Emoji\EmojiServiceProvider::class,
-        // CachetHQ\Twitter\TwitterServiceProvider::class,
+        CachetHQ\Emoji\EmojiServiceProvider::class,
+        CachetHQ\Twitter\TwitterServiceProvider::class,
         Barryvdh\Cors\ServiceProvider::class,
         env('APP_DEBUG') ? Barryvdh\Debugbar\ServiceProvider::class : null,
         GrahamCampbell\Binput\BinputServiceProvider::class,
