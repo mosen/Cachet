@@ -39,9 +39,5 @@
   "private": true,
   "dependencies": {
     "opencollective-postinstall": "^2.0.2"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/Cachet"
   }
 }
