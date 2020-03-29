@@ -42,7 +42,7 @@ mix
         'node_modules/livestamp/livestamp.js',
         'node_modules/jquery-serializeobject/jquery.serializeObject.js',
         'resources/assets/js/cachet.js',
-    ], 'public/dist/js/all.js')
+    ], 'public/dist/js/all.js');
 
 if (mix.inProduction()) {
     mix.version();

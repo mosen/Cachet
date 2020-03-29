@@ -10,7 +10,7 @@ export default {
     created() {
         axios.get(this.url)
             .then((response) => {
-                this.response = response
+                this.response = response;
                 this.loaded = true
             })
     },

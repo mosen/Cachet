@@ -7,12 +7,12 @@ Vue.component('report-schedule', require('./ReportSchedule'));
 Vue.component('invite-team', require('./InviteTeam'));
 
 module.exports = {
-    props: ['user'],
+    // props: ['user'],
     mounted () {
-        if (!this.user.welcomed) {
-            // @todo Replace this with a non-jquery alternative.
-            $('#welcome-modal').modal('show');
-        }
+        // if (!this.user.welcomed) {
+        //     // @todo Replace this with a non-jquery alternative.
+        //     $('#welcome-modal').modal('show');
+        // }
     },
     methods: {
         fetchIncidentTimeline () {

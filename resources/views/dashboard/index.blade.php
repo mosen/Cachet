@@ -82,5 +82,5 @@
             @includeWhen($welcomeUser, 'dashboard.partials.welcome-modal')
         </div>
     </div>
-</div>
+</dashboard>
 @stop

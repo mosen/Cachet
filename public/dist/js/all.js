@@ -2245,12 +2245,11 @@ Vue.component('update-incident', __webpack_require__(/*! ./UpdateIncident */ "./
 Vue.component('report-schedule', __webpack_require__(/*! ./ReportSchedule */ "./resources/assets/js/components/dashboard/ReportSchedule.vue"));
 Vue.component('invite-team', __webpack_require__(/*! ./InviteTeam */ "./resources/assets/js/components/dashboard/InviteTeam.vue"));
 module.exports = {
-  props: ['user'],
-  mounted: function mounted() {
-    if (!this.user.welcomed) {
-      // @todo Replace this with a non-jquery alternative.
-      $('#welcome-modal').modal('show');
-    }
+  // props: ['user'],
+  mounted: function mounted() {// if (!this.user.welcomed) {
+    //     // @todo Replace this with a non-jquery alternative.
+    //     $('#welcome-modal').modal('show');
+    // }
   },
   methods: {
     fetchIncidentTimeline: function fetchIncidentTimeline() {//

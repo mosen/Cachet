@@ -1,7 +1,7 @@
 /**
  * Polyfill promises.
  */
-const Promise = require('promise')
+const Promise = require('promise');
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -61,4 +61,5 @@ const Flatpickr = require('flatpickr');
             'metric-chart': require('./components/status-page/Metric'),
         }
     });
-})()
+})();
+
