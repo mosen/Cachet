@@ -1,7 +1,7 @@
 @import "vendors";
 
 // Vendors for sDshboard.
-@import "./node_modules/jquery-minicolors/jquery.minicolors";
+@import "~jquery-minicolors/jquery.minicolors.css";
 
 // Styles for partials
 @import "dashboard/partials/base";

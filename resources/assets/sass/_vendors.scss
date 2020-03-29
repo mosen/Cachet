@@ -1,8 +1,8 @@
 @import "palette";
 
-$ionicons-font-path: "../../../fonts" !default;
-@import "./node_modules/ionicons/scss/ionicons";
-@import "./node_modules/github-markdown-css/github-markdown";
+$ionicons-font-path: "/fonts/" !default;
+@import "~ionicons/scss/ionicons";
+@import "~github-markdown-css/github-markdown";
 
 @import "modules/bootstrap";
 @import "plugins/flatpickr";

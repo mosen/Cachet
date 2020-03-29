@@ -10,7 +10,7 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
-    "storybook": "start-storybook -p 9009"
+    "storybook": "start-storybook -p 9009 -s public"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

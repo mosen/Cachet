@@ -1,5 +1,9 @@
 {
-  "include": ["resources/assets/js/**/*"],
+  "include": [
+    "resources/assets/js/**/*.ts",
+    "resources/assets/js/**/*.tsx",
+    "resources/assets/js/**/*.vue"
+  ],
   "exclude": ["node_modules", "public"],
   "compilerOptions": {
     "experimentalDecorators": true,
