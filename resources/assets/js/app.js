@@ -12,6 +12,7 @@ const Promise = require('promise');
 require('./bootstrap');
 
 window.Vue = require('vue');
+window.VueI18n = require('vue-i18n');
 
 window.axios = require('axios');
 
@@ -34,8 +35,11 @@ const Flatpickr = require('flatpickr');
 
     Vue.component('fetch-data', require('./components/FetchData'));
 
+    const i18n = new VueI18n({});
+
     new Vue({
         el: '#app',
+        i18n,
         data () {
             return {
                 // TODO: Fill this with the active user.

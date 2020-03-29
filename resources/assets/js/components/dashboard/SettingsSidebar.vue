@@ -1,3 +1,13 @@
+<i18n>
+{
+    "en": {
+        "dashboard": { "settings": {
+
+        }}
+    }
+}
+</i18n>
+
 <template>
     <div class="sub-sidebar">
         <div class="sidebar-toggler visible-xs">
