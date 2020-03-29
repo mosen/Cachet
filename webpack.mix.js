@@ -17,6 +17,19 @@ const sassOptions = {
     includePaths: ['node_modules'],
 };
 
+mix.extend( 'i18n', new class {
+        webpackRules() {
+            return [
+                {
+                    resourceQuery: /blockType=i18n/,
+                    type:          'javascript/auto',
+                    loader:        '@kazupon/vue-i18n-loader',
+                },
+            ];
+        }
+    }(),
+);
+
 mix
     .copyDirectory('node_modules/ionicons/fonts', 'public/fonts')
     .sass('resources/assets/sass/dashboard.scss', 'public/dist/css/dashboard', { sassOptions })
@@ -25,6 +38,7 @@ mix
     .options({
         processCssUrls: false
     })
+    .i18n()
     .js('resources/assets/js/app.js', 'public/dist/js').extract(['vue', 'chart.js'])
     .scripts([
         'public/dist/js/app.js',

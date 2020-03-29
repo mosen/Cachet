@@ -1,0 +1,8 @@
+{
+  "include": ["resources/assets/js/**/*"],
+  "exclude": ["node_modules", "public"],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "rootDirs": ["resources/assets/js"]
+  }
+}
